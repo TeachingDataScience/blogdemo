@@ -32,7 +32,12 @@ title: My Blog
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-          <!-- This loops through the paginated posts -->
+ 
+
+
+    
+      <section id="main_content" class="inner">
+         <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <p class="author">
@@ -42,11 +47,6 @@ title: My Blog
     {{ post.content }}
   </div>
 {% endfor %}
-
-
-    
-      <section id="main_content" class="inner">
-
         <h1>
 <a id="blog-demonstration" class="anchor" href="#blog-demonstration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Blog Demonstration</h1>
       </section>
