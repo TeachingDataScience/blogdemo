@@ -1,3 +1,5 @@
+---
+---
 # Create a first post
 
 Once you've created your gh-pages site,
