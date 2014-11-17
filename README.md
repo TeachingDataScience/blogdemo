@@ -1,4 +1,4 @@
 blogdemo
 ========
 
-A demonstration of using github to blog
+A demonstration of using github to blog.
